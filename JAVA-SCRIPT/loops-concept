@@ -1,0 +1,117 @@
+for (var i=1; i<100; i++)
+{
+    console.log(i);
+}
+
+for (var i=10; i>=1; i--)
+{
+    console.log(i);
+}
+
+for (var i=1; i>=10; i++);
+{
+    console.log(i, "sauare is " ,i*i)
+}
+
+
+---------- if else---------
+when conditins are 2
+------------------------------
+
+var age=30;
+if (age>=18){
+    console.log("major")
+}
+else{
+    console.log("minor");
+}
+-------------------------------,
+when conditions are 3
+--------------------------------
+var n=5;
+if(n>0){
+    console.log(+ve);
+}
+else(n<0){
+    console.log(-ve);
+}
+else{
+    console.log("zero");
+}
+--------------------------------------
+when conditions are more than 4
+--------------------------------------
+
+var m=-3;
+
+if(m<=100 && m>=90){
+    console.log("grade A");
+}
+else if (m<=90 && m>=70){
+    console.log("Grade B");
+}
+else if (m<=70 && m>=50)
+{
+    console.log("Grade C");
+
+}
+else if (m<=50 && m>=0)
+{
+    console.log("Grade C")
+}
+else {
+    console.log("Invalid marks");
+}
+================================
+
+if (false){
+    console.log("if")
+}
+else if (false)
+{
+    console.log("else if")
+}
+else
+{
+    console.log("else")
+}
+
+=============================================================================
+Functions
+=============================================================================
+
+Functions represents set of statements to excute specific task
+
+function wish ()
+{
+console.log("Hello, Good Morning");
+
+}
+
+wish ()
+
+--------------------------------------------------
+function without return statements;
+
+function wish (){
+    console.log("hi");
+}
+
+wish ()
+
+--------------------------------------------------------
+function with return statements;
+function wish2 (){
+    return "hi";
+}
+console.log(wish2 ());
+
+----------------------------------
+function with arguments
+
+function sum (a,b)
+
+{
+return a+b;
+}
+console.log(sum(2,3));
